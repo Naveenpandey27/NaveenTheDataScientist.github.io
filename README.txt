@@ -1,32 +1,11 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+** My Portfolio **
+Welcome to my portfolio! This website showcases my skills, projects, and accomplishments in the field of [Your Field/Area of Expertise]. I have created this portfolio to provide you with an overview of my work and highlight my passion for [Computer Vision, Deep Learning].
 
+About Me
+In this section, you will find a brief introduction about myself. I am a [Data Scientist] with [1.4] years of experience in [Computer Vision]. 
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+Projects
+In the projects section, you can explore the various projects I have worked on. Each project demonstrates my ability to tackle complex problems and showcases my proficiency in [Python, Computer Vision, Deep Learninng and machine Learning]. Click on each project to learn more about the problem statement, methodology, and the results achieved. You can also find links to the project repositories, where you can access the project code and dive deeper into the implementation details.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Contact
+If you would like to get in touch with me, please feel free to reach out. You can contact me via email at naveenpandey2706@gmail.com. Additionally, you can connect with me on LinkedIn to stay updated with my latest projects and professional endeavors.
