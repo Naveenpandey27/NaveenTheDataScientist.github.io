@@ -1,214 +1,1485 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Naveen Pandey</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		C:\Users\navee\Downloads\portfolio_website\assets
-		C:\Users\navee\Downloads\portfolio_website\index.html
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Naveen Pandey - AI Engineer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* CSS Variables for consistent theming */
+        :root {
+            --primary-color: #6366f1;
+            --secondary-color: #8b5cf6;
+            --accent-color: #06b6d4;
+            --text-primary: #1f2937;
+            --text-secondary: #6b7280;
+            --text-light: #9ca3af;
+            --background-primary: #ffffff;
+            --background-secondary: #f9fafb;
+            --background-card: #ffffff;
+            --border-color: #e5e7eb;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            --gradient-primary: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            --gradient-accent: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+        }
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+        [data-theme="dark"] {
+            --text-primary: #f9fafb;
+            --text-secondary: #d1d5db;
+            --text-light: #9ca3af;
+            --background-primary: #111827;
+            --background-secondary: #1f2937;
+            --background-card: #1f2937;
+            --border-color: #374151;
+        }
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Naveen Pandey<br />
-						</h1>
-						<p>Data Scientist skilled in Python, Machine Learning, Deep Learning and Computer Vision <a href="https://twitter.com/naveenpandey27">@naveenpandey27</a> 
-					    </p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Naveen The Data Scientist</a>
-					</header>
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--background-primary);
+            overflow-x: hidden;
+            transition: all 0.3s ease;
+        }
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-							
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/naveen-pandey-736523149/" class="icon brands alt fa-linkedin"><span class="label">Linkdin</span></a></li>
-							<li><a href="https://github.com/Naveenpandey27" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .about-text {
+          max-width: 900px;
+          margin: 0 auto;
+          padding: 0 20px;
+          font-size: 1.1rem;
+          line-height: 1.8;
+          text-align: justify;
+        }
 
-				<!-- Main -->
-					<div id="main">
+        .about-text p {
+          margin-bottom: 1.5rem;
+        }
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									
-									<h2><a href="https://github.com/Naveenpandey27/End-to-End-Movie_Recommendation_Engine">End-to-End Movie Recommendation Engine</a></h2>
-									<p>In this project i build movie recommendation engine which will 
-										recommend movie to the user based on their viewing history, ratings, and other factors. The project 
-										collects data on movies, users, and their interactions, processes it to extract 
-										meaningful insights, and trains a recommendation model to make personalized movie.</p>
-								</header>
-								<a href="https://github.com/Naveenpandey27/End-to-End-Movie_Recommendation_Engine" class="image main"><img src="images/recco.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/Naveenpandey27/End-to-End-Movie_Recommendation_Engine" class="button large">View Project</a></li>
-								</ul>
-							</article>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/Naveenpandey27/Anime_Face_Generator_using_GANs">Anime Face Generator with DCGAN</a></h2>
-									</header>
-									<a href="https://github.com/Naveenpandey27/Anime_Face_Generator_using_GANs" class="image fit"><img src="images/anime.jpg" alt="" /></a>
-									<p>In this project i used Deep Learning model that generates anime style face using generative adversarial networks (GANs). 
-										it is trained on a large dataset of anime faces and can generate new faces with various attributes, such as gender, age, and emotions.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Naveenpandey27/Anime_Face_Generator_using_GANs" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/Naveenpandey27/Speech_Recognition_using_LSTM">Speech Emotion Recognition<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Naveenpandey27/Speech_Recognition_using_LSTM" class="image fit"><img src="images/speech.jpg" alt="" /></a>
-									<p>In this project i build Speech emotion recognition using LSTM that involves using deep learning techniques to train a neural network to recognize and transcribe spoken words. Specifically, 
-										Long Short-Term Memory (LSTM) is a type of recurrent neural network that is well-suited for sequence processing tasks such as speech recognition. .</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Naveenpandey27/Speech_Recognition_using_LSTM" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/Naveenpandey27/Fake_news_detection">Fake News Detection</a></h2>
-									</header>
-									<a href="https://github.com/Naveenpandey27/Fake_news_detection" class="image fit"><img src="images/fake.png" alt="" /></a>
-									<p>A machine learning project for classifying news articles as fake or real based on the content of the articles. The project uses a dataset of news articles and their corresponding labels to train a model. The model then makes predictions on new, unseen news articles and classifies them as fake or real.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Naveenpandey27/Fake_news_detection" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/Naveenpandey27/multiple-disease-detector">Multiple Disease Detection<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Naveenpandey27/multiple-disease-detector" class="image fit"><img src="images/multiple.jpg" alt="" /></a>
-									<p>Multiple Disease Detection Project uses machine learning algorithms to analyze medical imaging data and diagnose multiple diseases simultaneously. The goal of the project is to improve the accuracy and efficiency of disease detection by combining multiple algorithms and sources of information..</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Naveenpandey27/multiple-disease-detector" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/Naveenpandey27/laptop_price_prediction">Laptop Price Prediction<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Naveenpandey27/laptop_price_prediction" class="image fit"><img src="images/laptop.jpg" alt="" /></a>
-									<p>The Laptop Price Prediction project is a machine learning-based application that aims to predict the price of a laptop based on various features such as brand, processor, RAM, storage, graphics card, and other specifications. 
-										The application uses a dataset of laptop prices and specifications to train a machine learning model that can predict the price of a laptop based on its features. The main objective of this project is to provide users with an estimate of how much a laptop should cost based on its specifications, helping them make informed decisions when purchasing a laptop.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Naveenpandey27/laptop_price_prediction" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="https://github.com/Naveenpandey27/Rain_predict/blob/main/Rainfall%20Prediction.ipynb">Rainfall Prediction<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/Naveenpandey27/Rain_predict/blob/main/Rainfall%20Prediction.ipynb" class="image fit"><img src="images/rain.jpg" alt="" /></a>
-									<p>Rainfall Prediction project is a machine learning-based application that aims to predict the amount of rainfall in a specific area based on various environmental and meteorological factors such as temperature, humidity, wind speed, air pressure, and others. The application uses historical data on weather conditions and rainfall to train a machine learning model that can predict the amount of rainfall in a given location for a specific period of time.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Naveenpandey27/Rain_predict/blob/main/Rainfall%20Prediction.ipynb" class="button">View Project</a></li>
-									</ul>
-								</article>
-							</section>
+        /* Theme toggle */
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: var(--background-card);
+            border: 2px solid var(--border-color);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-md);
+        }
 
-						
-					</div>
+        .theme-toggle:hover {
+            transform: scale(1.05);
+            box-shadow: var(--shadow-lg);
+        }
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
 
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Greater Noida, Uttar Pradesh, India<br />
-								</p>
-							</section>
-							<!-- <section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section> -->
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">naveenpandey2706@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/naveen-pandey-736523149/" class="icon brands alt fa-linkedin"><span class="label">Linkdin</span></a></li>
-									<li><a href="https://github.com/Naveenpandey27" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+        [data-theme="dark"] nav {
+            background: rgba(17, 24, 39, 0.9);
+        }
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
 
-			</div>
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        .logo:hover {
+            transform: scale(1.05);
+        }
 
-	</body>
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .nav-links a.active {
+            color: var(--primary-color);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary-color);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-links a {
+            color: var(--text-secondary);
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--gradient-primary);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><radialGradient id="a" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="%23ffffff" stop-opacity="0.1"/><stop offset="100%" stop-color="%23ffffff" stop-opacity="0"/></radialGradient></defs><rect width="100%" height="100%" fill="url(%23a)"/></svg>');
+            animation: float 20s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        /* Hero Section Fixes */
+        .hero {
+            /* Add padding-top to account for fixed header */
+            padding-top: 120px; /* Adjust this value based on your header height */
+            min-height: 100vh;
+            position: relative;
+            /* Ensure hero section has proper stacking context */
+            z-index: 1;
+        }
+
+        .hero-content {
+            text-align: center;
+            color: white;
+            z-index: 2;
+            position: relative;
+            max-width: 800px;
+            padding: 0 2rem;
+        }
+
+        .hero-avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 2rem;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: var(--primary-color);
+            box-shadow: var(--shadow-xl);
+            animation: pulse 2s ease-in-out infinite;
+            position: relative;
+            z-index: 3;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            animation: slideInUp 0.8s ease-out;
+        }
+
+        .hero .subtitle {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            animation: slideInUp 0.8s ease-out 0.2s both;
+        }
+
+        .hero .description {
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+            opacity: 0.8;
+            animation: slideInUp 0.8s ease-out 0.4s both;
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: slideInUp 0.8s ease-out 0.6s both;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 0.5rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary-color);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        /* Sections */
+        .section {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* About Section */
+        .about {
+            background: var(--background-secondary);
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+
+        .about-text .highlight {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--background-card);
+            border-radius: 1rem;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+        }
+
+        .stat-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-category {
+            background: var(--background-card);
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+        }
+
+        .skill-category:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .skill-category h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background: var(--background-secondary);
+            color: var(--text-secondary);
+            padding: 0.3rem 0.8rem;
+            border-radius: 1rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .skill-tag:hover {
+            background: var(--primary-color);
+            color: white;
+        }
+
+       /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            padding: 1rem 0;
+        }
+        
+        .project-card {
+            background: var(--background-card);
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            backdrop-filter: blur(10px);
+        }
+        
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: var(--gradient-accent);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        
+        .project-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-xl);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        /* Project Image Styles - Updated to support both images and icons */
+        .project-image {
+            width: 100%;
+            height: 200px;
+            background: var(--gradient-accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Background image support */
+        .project-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .project-card:hover .project-image img {
+            transform: scale(1.05);
+        }
+        
+        /* Overlay for better text readability when using images */
+        .project-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 100%);
+            z-index: 1;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .project-image:has(img)::before {
+            opacity: 1;
+        }
+        
+        .project-card:hover .project-image::before {
+            opacity: 0.7;
+        }
+        
+        /* Shimmer effect overlay */
+        .project-image::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 2;
+        }
+        
+        .project-card:hover .project-image::after {
+            opacity: 1;
+        }
+        
+        /* Icon styling (fallback when no image) */
+        .project-image i {
+            z-index: 3;
+            transition: transform 0.3s ease;
+        }
+        
+        .project-card:hover .project-image i {
+            transform: scale(1.1);
+        }
+        
+        /* Hide icon when image is present */
+        .project-image:has(img) i {
+            display: none;
+        }
+        
+        /* Image placeholder/loading state */
+        .project-image.loading {
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+        }
+        
+        @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
+        
+        /* Image error state */
+        .project-image img.error {
+            display: none;
+        }
+        
+        .project-image.error::after {
+            content: '🖼️';
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.6);
+            z-index: 3;
+        }
+        
+        /* Responsive image adjustments */
+        @media (max-width: 768px) {
+            .project-image {
+                height: 150px;
+                font-size: 2.5rem;
+            }
+        }
+        
+        /* Alternative: Image with icon overlay */
+        .project-image.has-overlay {
+            position: relative;
+        }
+        
+        .project-image.has-overlay i {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 8px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            z-index: 4;
+            display: flex !important;
+        }
+        
+        /* Image container for better control */
+        .project-image-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .project-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .project-card:hover .project-image-container img {
+            transform: scale(1.05);
+        }
+        
+        .project-content {
+            padding: 1.5rem;
+        }
+        
+        .project-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+            transition: color 0.3s ease;
+        }
+        
+        .project-card:hover .project-title {
+            color: var(--primary-color);
+        }
+        
+        .project-description {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+        
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .tech-tag {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 0.25rem 0.7rem;
+            border-radius: 0.5rem;
+            font-size: 0.8rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            cursor: default;
+            border: 1px solid transparent;
+        }
+        
+        .tech-tag:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        .project-links {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .project-links .btn {
+            padding: 0.6rem 1.2rem;
+            font-size: 0.9rem;
+            border-radius: 0.5rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: 500;
+        }
+        
+        .project-links .btn-primary {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border: none;
+        }
+        
+        .project-links .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            filter: brightness(1.1);
+        }
+        
+        .project-links .btn-secondary {
+            background: transparent;
+            color: var(--text-primary);
+            border: 2px solid var(--primary-color);
+        }
+        
+        .project-links .btn-secondary:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 0.5rem 0;
+    }
+    
+    .project-card {
+        margin: 0 0.5rem;
+    }
+    
+    .project-image {
+        height: 150px;
+        font-size: 2.5rem;
+    }
+    
+    .project-content {
+        padding: 1rem;
+    }
+    
+    .project-title {
+        font-size: 1.2rem;
+    }
+    
+    .project-description {
+        font-size: 0.9rem;
+    }
+    
+    .project-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .project-links .btn {
+        text-align: center;
+        justify-content: center;
+        padding: 0.7rem 1rem;
+    }
+}
+
+/* Tablet Responsive */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+/* Loading Animation */
+.project-card {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.project-card:nth-child(1) { animation-delay: 0.1s; }
+.project-card:nth-child(2) { animation-delay: 0.2s; }
+.project-card:nth-child(3) { animation-delay: 0.3s; }
+.project-card:nth-child(4) { animation-delay: 0.4s; }
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Improved focus states for accessibility */
+.project-card:focus-within {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.project-links .btn:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+        /* Contact Section */
+        .contact {
+            background: var(--background-secondary);
+        }
+
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        .contact-details h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            color: var(--text-primary);
+        }
+
+        .contact-details p {
+            color: var(--text-secondary);
+        }
+
+        .contact-form {
+            background: var(--background-card);
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid var(--border-color);
+            border-radius: 0.5rem;
+            background: var(--background-primary);
+            color: var(--text-primary);
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--text-primary);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .footer p {
+            opacity: 0.8;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.2rem;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .section {
+                padding: 3rem 1rem;
+            }
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Scroll indicator */
+        .scroll-indicator {
+            position: fixed;
+            top: 70px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--border-color);
+            z-index: 998;
+        }
+
+        .scroll-progress {
+            height: 100%;
+            background: var(--gradient-primary);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-indicator">
+        <div class="scroll-progress"></div>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-moon" id="theme-icon"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Naveen Pandey</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/naveen-pandey-736523149/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Naveenpandey27" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                 <a href="https://x.com/naveenpandey27" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://medium.com/@naveenpandey2706" target="_blank">
+                    <i class="fab fa-medium"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-avatar">
+                <i class="fas fa-user-astronaut"></i>
+            </div>
+              <h1 className ="text-4xl sm:text-6xl md:text-7xl font-bold text-white mb-6">
+                I'm <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">Naveen Pandey
+                  </span>
+              </h1>
+            <p class="subtitle">Generative AI Engineer</p>
+            <p class="description">
+                Bringing data to life with GenAI, LLMs. I design AI systems that think, retrieve, and reason.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-rocket"></i>
+                    View My Work
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i>
+                    Get In Touch
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about fade-in">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">
+            Solving real-world challenges with LLMs, RAG, and end-to-end AI pipelines driven by curiosity, powered by data.
+        </p>
+        <div class="about-text">
+            <p>
+                I'm a <span class="highlight">Generative AI Engineer</span> with a deep passion for building intelligent, scalable solutions that bridge research and real-world impact. 
+                Over the last 3 years, I’ve developed production-ready systems using <span class="highlight">LLMs</span>, <span class="highlight">RAG pipelines</span>, and <span class="highlight">agentic frameworks</span> across industries like finance, manufacturing, and HR. 
+            </p>
+            <p>
+                Outside of work, I love diving into the latest AI trends, or sharing knowledge through technical writing. When I’m not in front of a screen, you’ll likely find me reading a book or playing badminton and football.
+            </p>
+        </div>
+            <!--<div class="about-stats">-->
+                <!--<div class="stat-item">-->
+                <!--    <div class="stat-number">6+</div>-->
+                <!--    <div class="stat-label">Projects Completed</div>-->
+                <!--</div>-->
+                <!--<div class="stat-item">-->
+                <!--    <div class="stat-number">3+</div>-->
+                <!--    <div class="stat-label">Years Experience</div>-->
+                <!--</div>-->
+                <!--<div class="stat-item">-->
+                <!--    <div class="stat-number">10+</div>-->
+                <!--    <div class="stat-label">Technologies Mastered</div>-->
+                <!--</div>-->
+            <!--</div>-->
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="section fade-in">
+    <h2 class="section-title">Skills & Expertise</h2>
+    <p class="section-subtitle">
+        Building intelligent, scalable solutions with modern AI tools and frameworks
+    </p>
+    <div class="skills-grid">
+        
+        <!-- Programming & Core -->
+        <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Programming</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Bash</span>
+            </div>
+        </div>
+
+        <!-- Machine Learning & Deep Learning -->
+        <div class="skill-category">
+            <h3><i class="fas fa-brain"></i> ML & DL</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">Scikit-learn</span>
+                <span class="skill-tag">TensorFlow</span>
+                <span class="skill-tag">PyTorch</span>
+                <span class="skill-tag">Keras</span>
+                <span class="skill-tag">XGBoost</span>
+                <span class="skill-tag">CNN</span>
+                <span class="skill-tag">LSTM</span>
+                <span class="skill-tag">Transformers</span>
+            </div>
+        </div>
+
+        <!-- Generative AI -->
+        <div class="skill-category">
+            <h3><i class="fas fa-robot"></i> Generative AI</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">LLMs</span>
+                <span class="skill-tag">Prompt Engineering</span>
+                <span class="skill-tag">LangChain</span>
+                <span class="skill-tag">CrewAI</span>
+                <span class="skill-tag">LangGraph</span>
+                <span class="skill-tag">Fine-tuning (LoRA, QLoRA, PEFT)</span>
+            </div>
+        </div>
+
+        <!-- RAG & Agentic Systems -->
+        <div class="skill-category">
+            <h3><i class="fas fa-network-wired"></i> RAG & Agent Systems</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">RAG Pipelines</span>
+                <span class="skill-tag">Hybrid Search</span>
+                <span class="skill-tag">Semantic Chunking</span>
+                <span class="skill-tag">FlashRank</span>
+                <span class="skill-tag">Function Calling</span>
+            </div>
+        </div>
+
+        <!-- Vector Databases -->
+        <div class="skill-category">
+            <h3><i class="fas fa-database"></i> Vector & Data Stores</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">FAISS</span>
+                <span class="skill-tag">ChromaDB</span>
+                <span class="skill-tag">Pinecone</span>
+                <span class="skill-tag">Weaviate</span>
+                <span class="skill-tag">Milvus</span>
+            </div>
+        </div>
+
+        <!-- Computer Vision -->
+        <div class="skill-category">
+            <h3><i class="fas fa-eye"></i> Computer Vision</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">OpenCV</span>
+                <span class="skill-tag">YOLO</span>
+                <span class="skill-tag">Mask R-CNN</span>
+                <span class="skill-tag">Image Processing</span>
+            </div>
+        </div>
+
+        <!-- Data Analysis / Visualization -->
+        <div class="skill-category">
+            <h3><i class="fas fa-chart-bar"></i> Data Analysis</h3>
+            <div class="skill-tags">
+                <span class="skill-tag">Pandas</span>
+                <span class="skill-tag">NumPy</span>
+                <span class="skill-tag">Matplotlib</span>
+                <span class="skill-tag">Seaborn</span>
+                <span class="skill-tag">Plotly</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section fade-in">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+            A showcase of my work in machine learning, deep learning, and data science
+        </p>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">BrieflyAI</h3>
+                    <p class="project-description">
+                        BrieflyAI is an AI-powered tool that scrape data in real-time from reddit and Google news and summarizes those long documents into concise and meaningful insights.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">MCP</span>
+                        <span class="tech-tag">Groq</span>
+                        <span class="tech-tag">Streamlit</span>
+                        
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Naveenpandey27/Rag-Agentic-AI-Projects/tree/main/BrieflyAI" class="btn btn-primary" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-stethoscope"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">SmartMedAI</h3>
+                    <p class="project-description">
+                        An AI-powered healthcare assistant that uses multiple intelligent agents to generate preliminary medical diagnoses and personalized treatment plans based on patient-provided information.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">CrewAI</span>
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">Streamlit</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Naveenpandey27/Healthcare-Diagnostics-and-Treatment-Recommendation-System" class="btn btn-primary" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-scale-unbalanced""></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">LawAI</h3>
+                    <p class="project-description">
+                        LawAI is a RAG-based AI assistant that answers legal queries using uploaded law documents. It retrieves relevant legal context and generates concise, accurate responses using LLMs, making legal knowledge more accessible and user-friendly.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">Groq</span>
+                        <span class="tech-tag">Streamlit</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Naveenpandey27/Rag-Agentic-AI-Projects/tree/main/LawAI" class="btn btn-primary" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-university"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">HistoryGPT</h3>
+                    <p class="project-description">
+                        HistoryGPT is a RAG-based AI chatbot that answers user questions by retrieving and generating context-aware historical information from custom documents.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">LangChain </span>
+                        <span class="tech-tag">Groq</span>
+                        <span class="tech-tag">Streamlit</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Naveenpandey27/Rag-Agentic-AI-Projects/tree/main/HistoryGPT" class="btn btn-primary" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                        
+                                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact fade-in">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+            Have a project in mind or want to collaborate? I'd love to hear from you!
+        </p>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>Naveenpandey2706@gmail.com</p>
+                    </div>
+                </div>
+                <!--<div class="contact-item">-->
+                <!--    <div class="contact-icon">-->
+                <!--        <i class="fas fa-phone-alt"></i>-->
+                <!--    </div>-->
+                <!--</div>-->
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Location</h3>
+                        <p>Noida, Uttar Pradesh, India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/naveen-pandey-736523149/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Naveenpandey27" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://x.com/naveenpandey27" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://medium.com/@naveenpandey2706" target="_blank">
+                <i class="fab fa-medium"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Naveen Pandey. All rights reserved.</p>
+        <p>Built with <i class="fas fa-heart" style="color: #ff4d4d;"></i> and lots of <i class="fas fa-coffee"></i></p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Theme Toggle
+        function toggleTheme() {
+            const body = document.body;
+            const themeIcon = document.getElementById('theme-icon');
+            
+            if (body.getAttribute('data-theme') === 'dark') {
+                body.removeAttribute('data-theme');
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            } else {
+                body.setAttribute('data-theme', 'dark');
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            }
+        }
+
+        // Scroll Progress Indicator
+        window.addEventListener('scroll', function() {
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrollProgress = (scrollTop / scrollHeight) * 100;
+            document.querySelector('.scroll-progress').style.width = scrollProgress + '%';
+        });
+
+        // Scroll Reveal Animation
+        const fadeElements = document.querySelectorAll('.fade-in');
+        
+        function checkScroll() {
+            fadeElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                
+                if (elementTop < windowHeight - 100) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+        
+        window.addEventListener('scroll', checkScroll);
+        window.addEventListener('load', checkScroll);
+
+        // Smooth Scrolling for Navigation Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Update active nav link
+                    document.querySelectorAll('.nav-links a').forEach(link => {
+                        link.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                }
+            });
+        });
+
+        // Form Submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Here you would typically send the data to a server
+            console.log('Form submitted:', { name, email, subject, message });
+            
+            // Show success message
+            alert('Thank you for your message! I will get back to you soon.');
+            
+            // Reset form
+            this.reset();
+        });
+
+        // Set active nav link based on scroll position
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            let currentSection = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.offsetHeight;
+                
+                if (pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+            
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${currentSection}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
 </html>
